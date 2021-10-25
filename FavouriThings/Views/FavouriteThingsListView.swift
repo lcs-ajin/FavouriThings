@@ -13,6 +13,7 @@ struct FavouriteThingsListView: View {
         Text("MyRoom")
         Text("Queen")
         Text("Potato")
+        }
     }
 }
 
