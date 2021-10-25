@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		879757AF27270DD7009863DF /* FavouriteThingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879757AE27270DD7009863DF /* FavouriteThingsListView.swift */; };
 		87FCA7DE272060F900CAFB3D /* FavouriThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FCA7DD272060F900CAFB3D /* FavouriThingsApp.swift */; };
 		87FCA7E0272060F900CAFB3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FCA7DF272060F900CAFB3D /* ContentView.swift */; };
 		87FCA7E22720610F00CAFB3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87FCA7E12720610F00CAFB3D /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		879757AE27270DD7009863DF /* FavouriteThingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsListView.swift; sourceTree = "<group>"; };
 		87FCA7DA272060F900CAFB3D /* FavouriThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavouriThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87FCA7DD272060F900CAFB3D /* FavouriThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriThingsApp.swift; sourceTree = "<group>"; };
 		87FCA7DF272060F900CAFB3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				87FCA7DF272060F900CAFB3D /* ContentView.swift */,
 				87FCA8072720658300CAFB3D /* QueenView.swift */,
 				87FCA7DD272060F900CAFB3D /* FavouriThingsApp.swift */,
+				879757AE27270DD7009863DF /* FavouriteThingsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87FCA7E0272060F900CAFB3D /* ContentView.swift in Sources */,
+				879757AF27270DD7009863DF /* FavouriteThingsListView.swift in Sources */,
 				87FCA7DE272060F900CAFB3D /* FavouriThingsApp.swift in Sources */,
 				87FCA8082720658300CAFB3D /* QueenView.swift in Sources */,
 			);
