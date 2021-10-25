@@ -9,18 +9,20 @@ import SwiftUI
 
 struct QueenView: View {
     var body: some View {
-        VStack(content: {
-            Image("Queen")
-                .resizable()
-                .scaledToFit()
-            
-            Text("This is a photo of Freddie Mercury")
-                .padding()
-            Spacer()
+        ScrollView{
+            VStack(content: {
+                Image("Queen")
+                    .resizable()
+                    .scaledToFit()
                 
-        })
+                Text("This is a photo of Freddie Mercury")
+                    .padding()
+                Spacer()
+                    
+            })
+        }
         .navigationTitle("Queen")
-        Spacer()
+
     }
 }
 

@@ -9,18 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(content: {
-            Image("MyRoom")
-                .resizable()
-                .scaledToFit()
-            
-            Text("This is my room")
-                .padding()
-            Spacer()
+        ScrollView{
+            VStack(content: {
+                Image("MyRoom")
+                    .resizable()
+                    .scaledToFit()
                 
-        })
+                Text("This is my room")
+                    .padding()
+                Spacer()
+                    
+            })
+            
+        }
         .navigationTitle("My room")
-        Spacer()
     }
 }
 
