@@ -73,6 +73,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		879757AD27270849009863DF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				87FCA7DF272060F900CAFB3D /* ContentView.swift */,
+				87FCA8072720658300CAFB3D /* QueenView.swift */,
+				87FCA7DD272060F900CAFB3D /* FavouriThingsApp.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		87FCA7D1272060F800CAFB3D = {
 			isa = PBXGroup;
 			children = (
@@ -96,11 +106,9 @@
 		87FCA7DC272060F900CAFB3D /* FavouriThings */ = {
 			isa = PBXGroup;
 			children = (
-				87FCA7DD272060F900CAFB3D /* FavouriThingsApp.swift */,
-				87FCA7DF272060F900CAFB3D /* ContentView.swift */,
+				879757AD27270849009863DF /* Views */,
 				87FCA7E12720610F00CAFB3D /* Assets.xcassets */,
 				87FCA7E32720610F00CAFB3D /* Preview Content */,
-				87FCA8072720658300CAFB3D /* QueenView.swift */,
 			);
 			path = FavouriThings;
 			sourceTree = "<group>";
@@ -423,6 +431,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FavouriThings/Preview Content\"";
+				DEVELOPMENT_TEAM = UNXTV2YXB5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -452,6 +461,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FavouriThings/Preview Content\"";
+				DEVELOPMENT_TEAM = UNXTV2YXB5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
