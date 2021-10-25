@@ -14,12 +14,16 @@ struct FavouriteThingsListView: View {
         Text("Queen")
         Text("Potato")
         }
+        .navigationTitle("My Favourite things")
     }
 }
 
 struct FavouriteThingsListView_Previews: PreviewProvider {
     static var previews: some View {
-        FavouriteThingsListView()
+        NavigationView{
+            FavouriteThingsListView()
+        }
+        
     }
 }
 
