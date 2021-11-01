@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		875A37342727953700643138 /* PotatoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875A37332727953700643138 /* PotatoView.swift */; };
+		875A37362727968E00643138 /* BassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875A37352727968E00643138 /* BassView.swift */; };
+		875A3738272797CF00643138 /* Basketball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875A3737272797CF00643138 /* Basketball.swift */; };
+		875A373A2727987D00643138 /* StarWars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875A37392727987D00643138 /* StarWars.swift */; };
 		879757AF27270DD7009863DF /* FavouriteThingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879757AE27270DD7009863DF /* FavouriteThingsListView.swift */; };
 		87FCA7DE272060F900CAFB3D /* FavouriThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FCA7DD272060F900CAFB3D /* FavouriThingsApp.swift */; };
 		87FCA7E0272060F900CAFB3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FCA7DF272060F900CAFB3D /* ContentView.swift */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		875A37332727953700643138 /* PotatoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotatoView.swift; sourceTree = "<group>"; };
+		875A37352727968E00643138 /* BassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BassView.swift; sourceTree = "<group>"; };
+		875A3737272797CF00643138 /* Basketball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basketball.swift; sourceTree = "<group>"; };
+		875A37392727987D00643138 /* StarWars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWars.swift; sourceTree = "<group>"; };
 		879757AE27270DD7009863DF /* FavouriteThingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsListView.swift; sourceTree = "<group>"; };
 		87FCA7DA272060F900CAFB3D /* FavouriThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavouriThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87FCA7DD272060F900CAFB3D /* FavouriThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriThingsApp.swift; sourceTree = "<group>"; };
@@ -82,6 +90,10 @@
 				87FCA8072720658300CAFB3D /* QueenView.swift */,
 				87FCA7DD272060F900CAFB3D /* FavouriThingsApp.swift */,
 				879757AE27270DD7009863DF /* FavouriteThingsListView.swift */,
+				875A37332727953700643138 /* PotatoView.swift */,
+				875A37352727968E00643138 /* BassView.swift */,
+				875A3737272797CF00643138 /* Basketball.swift */,
+				875A37392727987D00643138 /* StarWars.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -271,10 +283,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				875A373A2727987D00643138 /* StarWars.swift in Sources */,
+				875A37342727953700643138 /* PotatoView.swift in Sources */,
 				87FCA7E0272060F900CAFB3D /* ContentView.swift in Sources */,
 				879757AF27270DD7009863DF /* FavouriteThingsListView.swift in Sources */,
 				87FCA7DE272060F900CAFB3D /* FavouriThingsApp.swift in Sources */,
 				87FCA8082720658300CAFB3D /* QueenView.swift in Sources */,
+				875A37362727968E00643138 /* BassView.swift in Sources */,
+				875A3738272797CF00643138 /* Basketball.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
